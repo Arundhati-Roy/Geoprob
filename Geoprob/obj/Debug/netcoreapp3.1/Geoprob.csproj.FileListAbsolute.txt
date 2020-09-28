@@ -1,0 +1,13 @@
+C:\Users\priyadarshini roy\source\repos\Geoprob\Geoprob\bin\Debug\netcoreapp3.1\Geoprob.exe
+C:\Users\priyadarshini roy\source\repos\Geoprob\Geoprob\bin\Debug\netcoreapp3.1\Geoprob.deps.json
+C:\Users\priyadarshini roy\source\repos\Geoprob\Geoprob\bin\Debug\netcoreapp3.1\Geoprob.runtimeconfig.json
+C:\Users\priyadarshini roy\source\repos\Geoprob\Geoprob\bin\Debug\netcoreapp3.1\Geoprob.runtimeconfig.dev.json
+C:\Users\priyadarshini roy\source\repos\Geoprob\Geoprob\bin\Debug\netcoreapp3.1\Geoprob.dll
+C:\Users\priyadarshini roy\source\repos\Geoprob\Geoprob\bin\Debug\netcoreapp3.1\Geoprob.pdb
+C:\Users\priyadarshini roy\source\repos\Geoprob\Geoprob\obj\Debug\netcoreapp3.1\Geoprob.csprojAssemblyReference.cache
+C:\Users\priyadarshini roy\source\repos\Geoprob\Geoprob\obj\Debug\netcoreapp3.1\Geoprob.AssemblyInfoInputs.cache
+C:\Users\priyadarshini roy\source\repos\Geoprob\Geoprob\obj\Debug\netcoreapp3.1\Geoprob.AssemblyInfo.cs
+C:\Users\priyadarshini roy\source\repos\Geoprob\Geoprob\obj\Debug\netcoreapp3.1\Geoprob.csproj.CoreCompileInputs.cache
+C:\Users\priyadarshini roy\source\repos\Geoprob\Geoprob\obj\Debug\netcoreapp3.1\Geoprob.dll
+C:\Users\priyadarshini roy\source\repos\Geoprob\Geoprob\obj\Debug\netcoreapp3.1\Geoprob.pdb
+C:\Users\priyadarshini roy\source\repos\Geoprob\Geoprob\obj\Debug\netcoreapp3.1\Geoprob.genruntimeconfig.cache
