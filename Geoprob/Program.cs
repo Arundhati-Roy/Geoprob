@@ -34,13 +34,24 @@ namespace LineComp
             Points p2 = new Points(8, 8, 10, 10);
             double l2 = p2.calLength();
             Console.WriteLine(l2);
-            if (l2.CompareTo(l1) == 0)
+            int k = l1.CompareTo(l2);
+
+            if (k.Equals(0))
             {
-                Console.WriteLine("Equal length lines");
+                Console.WriteLine("Lines are equal");
             }
+
             else
             {
-                Console.WriteLine("Different length lines");
+                if (k == 1)
+                {
+                    Console.WriteLine("Line 1 is greater than Line 2");
+                }
+
+                if (k < 1)
+                {
+                    Console.WriteLine("Line 1 is shorter than Line 2");
+                }
             }
 
 
