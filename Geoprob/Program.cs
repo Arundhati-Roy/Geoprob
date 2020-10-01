@@ -31,10 +31,17 @@ namespace LineComp
             Points p1 = new Points(4, 5, 7, 9);
             double l1 = p1.calLength();
             Console.WriteLine(l1);
-            //Points p2 = new Points(8, 8, 10, 10);
-            //double l2 = p2.calLength();
-            //Console.WriteLine(l2);
-            
+            Points p2 = new Points(8, 8, 10, 10);
+            double l2 = p2.calLength();
+            Console.WriteLine(l2);
+            if (l2.Equals(l1))
+            {
+                Console.WriteLine("Both lines are of equal length");
+            }
+            else
+            {
+                Console.WriteLine("Both lines are of different length");
+            }
 
 
         }
