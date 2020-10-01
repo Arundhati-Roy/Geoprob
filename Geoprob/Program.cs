@@ -1,28 +1,42 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace GeoAssg1
+namespace LineComp
 {
+    class Points
+    {
+        int x1, y1, x2, y2;
+        double length;
+
+        public Points(int x1, int y1, int x2, int y2)
+        {
+            this.x1 = x1;
+            this.y1 = y1;
+            this.x2 = x2;
+            this.y2 = y2;
+        }
+
+        public double calLength()
+        {
+            length = Math.Sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2);
+            return length;
+        }
+    }
     class Program
     {
         static void Main(string[] args)
         {
-            int x1 = 3, x2 = 6;
-            int y1 = 4, y2 = 9;
+            Console.WriteLine("Welcome to Line Comparision Computation Using Class");
+            Points p1 = new Points(4, 5, 7, 9);
+            double l1 = p1.calLength();
+            Console.WriteLine(l1);
+            //Points p2 = new Points(8, 8, 10, 10);
+            //double l2 = p2.calLength();
+            //Console.WriteLine(l2);
+            
 
-            int x3 = 5, x4 = 10;
-            int y3 = 7, y4 = 12;
-            double length1 = 0, lenght2 = 0;
 
-            length1 = Math.Sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2);
-            lenght2 = Math.Sqrt((x4 - x3) ^ 2 + (y4 - y3) ^ 2);
-            if (lenght2.CompareTo(length1) == 0)
-            {
-                Console.WriteLine("Equal length lines");
-            }
-            else
-            {
-                Console.WriteLine("Different length lines");
-            }
         }
     }
 }
